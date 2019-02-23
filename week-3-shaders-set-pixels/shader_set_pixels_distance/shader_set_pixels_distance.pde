@@ -17,6 +17,6 @@ void draw() {
   myFragShader.set("paramx", mouseX/float(width));       // this is how we pass arguments, data type must match
   myFragShader.set("paramy", mouseY/float(height));
   shader(myFragShader);                                    // call the shader
-  
+
   println (frameRate);
 }

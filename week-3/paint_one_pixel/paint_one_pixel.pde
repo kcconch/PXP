@@ -10,8 +10,8 @@ void setup() {
 void draw() {}                                    // were not doing anything in draw()
 
 void mouseDragged(){                                 // we paint only when the mouse is dragged
- loadPixels();                                        // load the pixels array of the window 
+ loadPixels();                                        // load the pixels array of the window
   int pixelUnderMouse= (mouseX+mouseY*width);        // calculate the position in the pixel array of the pixel under the mouse
   pixels[pixelUnderMouse]= color(255,255,0);          // set the pixel under the mouse in a new red color
-  updatePixels();                                     //  must call updatePixels oce were done messing with pixels[]  
+  updatePixels();                                     //  must call updatePixels oce were done messing with pixels[]
 }

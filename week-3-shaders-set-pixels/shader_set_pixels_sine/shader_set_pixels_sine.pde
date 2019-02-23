@@ -3,7 +3,7 @@
 // use ragment shader to color pixels by sinew wave
 
 PShader myFragShader;                  // variable to hold shader
-float counter , dir = 0.001;            
+float counter , dir = 0.001;
 
 void setup() {
   size(1000, 700, P2D);                             // must be P2D or P3D for shaders
